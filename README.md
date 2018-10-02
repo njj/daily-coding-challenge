@@ -29,6 +29,11 @@ or better way of doing something then open another PR!
 * Add instructions on how to run your solution to the top
 * Try a new language!
 
+## Testing
+To test your solutions, use Node CLI to execute the test runner and pass the path of your solution i.e.:
+
+`node runner.js 01-make-change/recursive-es6.js`
+
 [1]: https://hacktoberfest.digitalocean.com
 [2]: https://dailycodingproblem.com
 [3]: https://projecteuler.net

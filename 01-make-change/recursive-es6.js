@@ -7,5 +7,4 @@ const change = (amount, [coin, ...coins] = [25, 10, 5, 1]) => {
   return [num, ...change(amount - num * coin, coins)];
 };
 
-cosnole.log('Change for .83: ', change(83));
-cosnole.log('Change for .44: ', change(44));
+module.exports = change;
